@@ -1,0 +1,59 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apt (1.9.2)
+    build-essential (1.4.0)
+    chef_gem (0.1.0)
+    ohai (1.1.8)
+    openssl (1.0.2)
+    runit (1.1.4)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    ulimit (0.2.0)
+    yum (2.2.0)
+
+GIT
+  remote: git://github.com/opscode-cookbooks/nginx.git
+  ref: master
+  sha: 6807e46f27d7c3844227c7ffc0d36f0a58b89fd1
+  specs:
+    nginx (1.6.0)
+      apt (>= 0.0.0)
+      build-essential (>= 0.0.0)
+      ohai (>= 1.1.4)
+      runit (>= 0.0.0)
+      yum (>= 0.0.0)
+
+GIT
+  remote: https://github.com/brianbianco/redisio.git
+  ref: master
+  sha: 4b9991591d7ad134dfbf5abeeb6e806a6f1d9aa8
+  specs:
+    redisio (1.5.0)
+      ulimit (>= 0.1.2)
+
+GIT
+  remote: https://github.com/fnichol/chef-rvm
+  ref: master
+  sha: 7038fb8c518d0d7785767de215b1ae463f237973
+  specs:
+    rvm (0.9.1)
+      chef_gem (>= 0.0.0)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/mysql.git
+  ref: master
+  sha: b249d9e8ac719cd011ef649f9a5bb9148946ad0f
+  specs:
+    mysql (3.0.1)
+      build-essential (>= 0.0.0)
+      openssl (>= 0.0.0)
+
+DEPENDENCIES
+  apt (>= 0)
+  mysql (>= 0)
+  nginx (>= 0)
+  redisio (>= 0)
+  runit (>= 0)
+  rvm (>= 0)
+

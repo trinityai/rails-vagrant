@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+# cookbook 'chef-client'
+
+cookbook 'runit'
+
+cookbook 'apt'
+
+cookbook 'nginx',
+    :git => 'git://github.com/opscode-cookbooks/nginx.git'
+
+cookbook 'rvm',
+  :git => 'https://github.com/fnichol/chef-rvm'
+
+
+cookbook 'mysql',
+    :git => 'https://github.com/opscode-cookbooks/mysql.git'
+
+cookbook 'redisio',
+    :git => 'https://github.com/brianbianco/redisio.git'
+
+
+

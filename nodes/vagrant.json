@@ -1,0 +1,23 @@
+{
+    "mysql": {
+        "server_root_password": "randompassword",
+        "server_repl_password": "randompassword",
+        "server_debian_password": "randompassword",
+        "client": {
+            "packages": ["mysql-client", "libmysqlclient-dev", "ruby-mysql"]
+        }
+    },
+
+    "rvm": {
+        "rubies": ["1.9.3"]
+    },
+    
+    "run_list": [
+        "recipe[nginx]",
+        "recipe[mysql::client]",
+        "recipe[mysql::server]",
+        "recipe[rvm]",
+        "recipe[redisio::install]",
+        "recipe[redisio::enable]"
+    ]
+}
