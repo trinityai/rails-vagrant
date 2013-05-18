@@ -10,6 +10,7 @@ SITE
       build-essential (>= 0.0.0)
       yum (>= 0.0.0)
     ulimit (0.2.0)
+    vim (1.0.2)
     yum (2.2.0)
 
 GIT
@@ -56,4 +57,5 @@ DEPENDENCIES
   redisio (>= 0)
   runit (>= 0)
   rvm (>= 0)
+  vim (>= 0)
 

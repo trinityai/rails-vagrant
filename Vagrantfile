@@ -1,6 +1,5 @@
 # -*- mode: ruby -*-
-# vi: set ft=ruby :
-
+# vi: set ft=ruby : 
 require 'rubygems'
 require 'json'
 
@@ -20,7 +19,7 @@ Vagrant.configure("2") do |config|
   )
 
   VAGRANT_JSON['run_list'] << "recipe[rvm::vagrant]"
-
+  
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = ["site-cookbooks", "cookbooks"]
     chef.roles_path = "roles"

@@ -13,10 +13,12 @@
     },
     
     "run_list": [
+        "recipe[apt]",
         "recipe[nginx]",
         "recipe[mysql::client]",
         "recipe[mysql::server]",
         "recipe[rvm]",
+        "recipe[rvm::system]",
         "recipe[redisio::install]",
         "recipe[redisio::enable]"
     ]

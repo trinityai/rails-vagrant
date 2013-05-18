@@ -9,6 +9,8 @@ cookbook 'runit'
 
 cookbook 'apt'
 
+cookbook 'vim'
+
 cookbook 'nginx',
     :git => 'git://github.com/opscode-cookbooks/nginx.git'
 
@@ -21,6 +23,5 @@ cookbook 'mysql',
 
 cookbook 'redisio',
     :git => 'https://github.com/brianbianco/redisio.git'
-
 
 
