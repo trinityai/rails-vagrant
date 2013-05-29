@@ -46,7 +46,7 @@ will install chef on the remote host (assuming you have key access)
 this will also create an entry in the nodes/ folder, you can just copy the contents of nodes/vagrant.json for now
 I think the reason there are separate files for each server is if you had different roles ie database, web, load balancer
 
-    cat nodes/vagrant.json >> nodes/username@host
+    cat nodes/vagrant.json > nodes/username@host
 
 then do
 
