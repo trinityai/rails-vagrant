@@ -24,4 +24,5 @@ cookbook 'mysql',
 cookbook 'redisio',
     :git => 'https://github.com/brianbianco/redisio.git'
 
+cookbook 'imagemagick'
 

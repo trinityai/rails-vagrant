@@ -4,6 +4,7 @@ SITE
     apt (1.9.2)
     build-essential (1.4.0)
     chef_gem (0.1.0)
+    imagemagick (0.2.2)
     ohai (1.1.8)
     openssl (1.0.2)
     runit (1.1.4)
@@ -52,6 +53,7 @@ GIT
 
 DEPENDENCIES
   apt (>= 0)
+  imagemagick (>= 0)
   mysql (>= 0)
   nginx (>= 0)
   redisio (>= 0)
