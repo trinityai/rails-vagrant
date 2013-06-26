@@ -4,7 +4,7 @@ Here's a first crack at using chef and vagrant
 
 You'll need:
 
- - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+ - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) (but not version 4.2.14, because there's a regression)
 
  - The latest version of [Vagrant](http://downloads.vagrantup.com/)
 
