@@ -3,3 +3,8 @@
 *.git/
 *.gitignore/
 tmp/
+.git
+
+idg-lexmark/
+international-data-group/
+.gitignore
