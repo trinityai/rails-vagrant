@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
   # doesn't already exist on the user's system.
   config.vm.box_url = "http://trinity-ai.com/vagrantboxes/precise64.box"
 
-  config.vm.network :forwarded_port, guest: 80, host: 8080
+  config.vm.network :forwarded_port, guest: 3000, host: 3000
 
   VAGRANT_JSON = JSON::parse(
     Pathname(__FILE__).dirname.join('nodes', 'vagrant.json').read
