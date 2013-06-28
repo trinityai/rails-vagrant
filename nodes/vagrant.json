@@ -1,8 +1,9 @@
 {
     "mysql": {
-        "server_root_password": "randompassword",
-        "server_repl_password": "randompassword",
-        "server_debian_password": "randompassword",
+        "server_root_password": "",
+        "server_repl_password": "",
+        "server_debian_password": "",
+        "bind_address": "127.0.0.1",
         "client": {
             "packages": ["mysql-client", "libmysqlclient-dev", "ruby-mysql"]
         }
