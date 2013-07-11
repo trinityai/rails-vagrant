@@ -10,7 +10,8 @@
     },
 
     "rvm": {
-        "rubies": ["1.9.3"]
+        "rubies": ["1.9.3"],
+        "group_users": ["vagrant"]
     },
     
     "run_list": [
