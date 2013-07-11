@@ -23,6 +23,8 @@
         "recipe[rvm]",
         "recipe[rvm::system]",
         "recipe[redisio::install]",
-        "recipe[redisio::enable]"
+        "recipe[redisio::enable]",
+        "recipe[imagemagick]",
+        "recipe[imagemagick::devel]"
     ]
 }
