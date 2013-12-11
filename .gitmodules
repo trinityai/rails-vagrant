@@ -46,3 +46,18 @@
 [submodule "cookbooks/wp-cli"]
 	path = cookbooks/wp-cli
 	url = https://github.com/zippykid/chef-wp-cli
+[submodule "cookbooks/fail2ban"]
+	path = cookbooks/fail2ban
+	url = http://github.com/opscode-cookbooks/fail2ban
+[submodule "cookbooks/sudo"]
+	path = cookbooks/sudo
+	url = https://github.com/opscode-cookbooks/sudo.git
+[submodule "cookbooks/authorized_keys"]
+	path = cookbooks/authorized_keys
+	url = https://github.com/skalar-cookbooks/authorized_keys.git
+[submodule "cookbooks/simple-iptables"]
+	path = cookbooks/simple-iptables
+	url = https://github.com/dcrosta/cookbook-simple-iptables.git
+[submodule "cookbooks/rsyslog"]
+	path = cookbooks/rsyslog
+	url = https://github.com/opscode-cookbooks/rsyslog.git

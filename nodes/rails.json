@@ -1,0 +1,30 @@
+{
+    "mysql": {
+        "server_root_password": "",
+        "server_repl_password": "",
+        "server_debian_password": "",
+        "bind_address": "127.0.0.1",
+        "client": {
+            "packages": ["mysql-client", "libmysqlclient-dev", "ruby-mysql"]
+        }
+    },
+
+    "rvm": {
+        "rubies": ["1.9.3"],
+        "group_users": ["vagrant"]
+    },
+    
+    "run_list": [
+        "recipe[apt]",
+        "recipe[vim]",
+        "recipe[nginx]",
+        "recipe[mysql::client]",
+        "recipe[mysql::server]",
+        "recipe[rvm]",
+        "recipe[rvm::system]",
+        "recipe[redisio::install]",
+        "recipe[redisio::enable]",
+        "recipe[imagemagick]",
+        "recipe[imagemagick::devel]"
+    ]
+}
