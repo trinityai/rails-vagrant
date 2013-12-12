@@ -1,8 +1,8 @@
 {
     "mysql": {
-        "server_root_password": "|UK|9D,;",
-        "server_repl_password": "|UK|9D,;",
-        "server_debian_password": "|UK|9D,;",
+        "server_root_password": "",
+        "server_repl_password": "",
+        "server_debian_password": "",
         "bind_address": "127.0.0.1",
         "allow_remote_root": false,
         "client": {
