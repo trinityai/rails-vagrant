@@ -1,0 +1,4 @@
+{
+  "id": "beanstalk",
+  "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAz873JQv/eFWHQWRxk/HHXoJ/ZsIzy22DSekbvDYDodQ9m6BgdxZ3bjChgSfpk8BFsMw8WoFPsS2Px4ThZRW5gqUjsV9ZT/sZ4U9j3z6aYkA5LGiNZBqL/zKlcp6TqdAP/5F1Venr9+3FI9HBC9IajOozJCEj7H2FB6JwXMnhgJsVJRN+cwnbanRzCGyYxZ0rm/Ao74IH/odqIJte+Hnciema+S9ixFZ4m36e7aLEwH150/eRu1xFi7IlK2lRmsvTUsoSiZ8j2qBsyMbKR1fdR8MUouM0xRM4MdLAErjSkYJecDUdvGx6eUwR85I7N60yQ0Jkp/RtoH81FZ2R/U6LjQ== beanstalk@deployment-servers"
+}

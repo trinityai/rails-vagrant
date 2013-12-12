@@ -10,48 +10,16 @@
         }
     },
 
-    "ssh-public-keys": [
-        {
-          "id": "patrick",
-          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzN2YoazFW8QZ5HcWlqogzzkzrVDS9A2FdWndlahG/543Rmsx84bb5ektj6pT8OyOecYMiett59f2V0zEohJkYG37cK5aISIadC9FFC5eItrDR0OYrE0WwS4ydtf5ZBz+A3Awh36QdSxXop3nTdzVmA3niorkTgrUkYXSMkGfiwga0ZcglbN6UBkcSayLLg6HLYvrVAF9xP+GFWOY70Vx8A52i/xDYsvySE723HjO1q8vs4p1HemaqPvSzfKTH7UA1Ppafm6AN8xYzy2nsSwBmxAciBUfHe1dPqXu5HI4Y60vVBfSVn2dwuml7vci6yuanduuvGrXy9jrEm9G4O7AVQ== pwa@quicksilver.local"
-        },
-        {
-          "id": "beanstalk",
-          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAz873JQv/eFWHQWRxk/HHXoJ/ZsIzy22DSekbvDYDodQ9m6BgdxZ3bjChgSfpk8BFsMw8WoFPsS2Px4ThZRW5gqUjsV9ZT/sZ4U9j3z6aYkA5LGiNZBqL/zKlcp6TqdAP/5F1Venr9+3FI9HBC9IajOozJCEj7H2FB6JwXMnhgJsVJRN+cwnbanRzCGyYxZ0rm/Ao74IH/odqIJte+Hnciema+S9ixFZ4m36e7aLEwH150/eRu1xFi7IlK2lRmsvTUsoSiZ8j2qBsyMbKR1fdR8MUouM0xRM4MdLAErjSkYJecDUdvGx6eUwR85I7N60yQ0Jkp/RtoH81FZ2R/U6LjQ== beanstalk@deployment-servers"
-        },
-        {
-          "id": "trinityannex",
-          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAt32sDI4ZFSHMUhb09Z41kzUltxBlXQmrdJWfRNIOvq3j6ftz+khfSXLDxB1jtTOwprl2teTQpx3Y9xOmsUy7f/lAYZXeUw0xF+7gD2c5+ZlprgpCT9FHTu2Z7foK5q6/UJthmv2SUCyaMFxgWaZCtb7zZlElMcuZ1/y9gNc2+stTmMnBqQ6SRJWnBUmf8Q2YuXwnO8EZvjBaCp6r6+p4Hz4uf5WISzqfmDst7+hD2Na1/wIDZbkukj8MufX6hVuJjNed1uncvG2pxN7d8YaGiNJIlO/7010f1CKvA9GZWmlQHRELJDkkHUwwI4/TJSNIW82750JrkOxQVid0+PxerQ== tridevadmin@dev.trinityannex.com"
-        },
-        {
-          "id": "rachel1",
-          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAtjZC5LrzAyKsBolIIDEVQJ1+2RwqnGt+nfPrB3mMnX8Sk4URuXfmi3G/dYWc6+hkDoTEQoBmho28N/geFV7t6QP3+Bon65Yixr3EG9BLmgpHB0liXI05cGxIqBKCG5zz6a3MCzZbTBGnZxv2vm+9e3oteB4QsZfQZSCnxat4I/MAlbMfJnn3ptT07cQ4blG67SI8Ddc6XKd/S6wq48GcKugVDEbKJCXMO+f/2ionvux4tSyJ8ZhGSrvUub1yRX5n7QrEe24eoJ3rhT+4C50UrI7sG+hZnIqBd6WjzAbmRslhniuf94c4kypy1SEucpL3i1H3xlNahPghs5qv3Y3bDQ== rachel@rachel-andersons-computer.local"
-        },
-        {
-          "id": "prod1",
-          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAnx7BRBUWwyQCF43qFJJBmWtenDard4ifNU58QikCXzjv3xaF57fnfcx2/ij4lBEmwTCW2JSKc3myoXqfPUsMvkGyoejfKDCrFy9a3xhQuuNy21JDPUyJVbwxPDt0OabTB8FPkwvrLtCyRyh7pJkYLUAo3nGQx+tdtyAAaq4wEyVy287J7WWoc1+tFti0lDgXM4gRrctIKvGoeaCOhdlk2QHxr4Hzz+s8zTpvxRoFc9OV5HrlBF4GazEKsJj0Ier0mvum5x5QDKj1KvFlfQD5UImnoSVMMmOE2GvRB4WGt/v8QXo8UZFO0wkHncnUvirs6inCKYKd8mFhoGPHXgwVHQ== triadmin@trinitywebdevelopment"
-        },
-        {
-          "id": "tim1",
-          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVuPqfTxyiPBHmFL7+M/57enBEz6542pMONDy+tizScwzxCEWw7HQyDxkiCETn0ZzYBIHodLN3DXtH6kLrB2ZMSaUm6mCnM+pi7iEIt9swXQP7HLjJhQWWRssxMIqxSTqzu0GQDaPVeK7K+lEJS/9H31D6vMb2X0GQUsNUwvWXEzG9JQd29II68kCD8HuoIoBVtmuX3afpV0g17cVbc9mYikYg2Lo9UqXxT7kwLpw6k3RqaYNUFLwWCPOcudtlzZDdL4aBPGWBQ4I7YvAYpkBAVKIdqF5HlvwhkGMWhVKuDCOW1dLjY84+lSgHE/dxwUXnf2SUS8Xbe34tyCbklNLl tim@Timothys-iMac.local"
-        },
-        {
-          "id": "rachel2",
-          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCbOaXMyoT6Bp+RA/SGD86VudD2dfa2+Tc1uxmI2WVA4Bnh+Jg1fnjoUKub8qeXt80IcpNhL5k8jZc6hlyTkcI1QDGN9LgLcCPiVMY3waNu/raouNy3dCNfLG8Ljw4Wm+tGnYmDnuNLaPTjnAxakr7OualtsX11dd+9CHLDdkxw9dbL1oYSvXyQPERsy70ja/Pyz/GNkbh6nX0Td30ndb+EKvofMQocoUNZrtihuzTOMar+VWbdjPEVAzQlrHC4r13MKQGauKgH9nlmVB4vPmUDre5e3pJbRTxUnQdEph3TOTOuXEk/cNWH6gwY6+8ACMArIt8dwZS2bmTs05DFPun trinityai@Rachels-iMac.local"
-        },
-        {
-          "id": "tim2",
-          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDUVFf0ICnUY8TycF0zdAjlvW+TBQlkeUPd8L/yloQqunls3x98F+4Mbp9HoYfDqMYkgZTqPl7BWiAVOFW7TQxM7u6H4wC/cG9YPWWshP7T+0cQp2fow8WO4yjfASU1PP82zQzzsZYRi8YxPPiyH1D6v7qMfGtSK/N28KKgq12QqhW1P644mS1Ik8D01QLuwnzo/PlQYG9I5Ga/wyZ+kKRBeGglFPnmF0PJl1Ix8J8sUOOP5oYP9ps9UbxCZ6i/oc0iw4WqbnFLgFkN2Z8im4y6NICa29w/C//n6/jq7vYZTb695N7XgDtFCigdpOFoj7Y0iTHJXBmOseHeWJJPw68b tim@hakouri"
-        },
-        {
-          "id": "backup",
-          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2rJX22u8N12L+ZeuMx3D+C9S/uNxOJdvOtSrRvyS/J3Z0+Tt5FgKmR2koyJI0ZggnjP+2F9+0Na38N+HETr38uOZMluvUeQjQgGrKKJAfNIrIaGbibzzsKxjc6gOgmJSLXB7J1t37SHCaknoDfxePX+gqPKdBo2J7VyVEQly4Rbr/0vWMCMk4XjOvlC0pN4g0Uptb8M19ED49JbC/FSLTSnfm256J+SuH9DiQccR5/xzZnXcRsOvwweP3Bl3xMRN5rEhduiw4yiHEU58/zw0kcsqrj5NVhqylX5kY62WyW2pcDDbHrmlVUlM1UWsK46RGEZj7HjoAl4KBndAkpgKN triadmin@backup"
-        },
-        {
-          "id": "tim3",
-          "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1uMaChpfOpx0+O1O6ojQa98yVV+XU1me7id3TCj93n6hxi+L6/iNqPhM0OvukadN2WpbeQeaiaXw5QD08ni/vyIk7QZmjlHECsnh01eg4lRez5x3xn8g8n1xTB3Er0+fGeGYcQ0Fv6xH9qxHy956Oqr9BW9TuPP6uV9ehbbytPvSSWOF047teupC9LAg1icUU8l3UryJ48/NtA3CHQa39CfiAGYUlHqZdiW0pwdtilz7fwppg7ojYeRms4aAn+xj2JZ9MdebqDcN4xYSEDv67ZSfaq9XJ/xIfJjJUp6kG4PsB2z0BvAP/Lg8rV2Rh6nA0bxYhky/Tq/+rQRrkVBc7 tim@tims-MacBook-Air.local"
-        }
-    ],
+  "authorization": {
+    "sudo": {
+      "users": ["triadmin"],
+      "passwordless": false
+    }
+  },
+  "ssh_keys": {
+    "triadmin": ["patrick", "rachel1", "rachel2", "tim1", "tim2", "tim3", "beanstalk", "trinityannex", "production", "backup"]
+    },
+
 
     "run_list": [
         "recipe[apt]",
@@ -71,12 +39,14 @@
         "recipe[chef-php-extra::module_mcrypt]",
         "recipe[chef-php-extra::module_xml]",
         "recipe[chef-php-extra::module_soap]",
-        "recipe[chef-php-extra::module_mbstring]",
         "recipe[php-fpm]",
         "recipe[redisio::install]",
         "recipe[redisio::enable]",
         "recipe[fail2ban]",
-        "recipe[simple_iptables]"
+        "recipe[simple_iptables]",
+        "recipe[trinity]",
+        "recipe[ssh-keys]",
+        "recipe[sudo]"
 
     ]
 }
