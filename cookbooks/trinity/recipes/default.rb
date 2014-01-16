@@ -8,7 +8,7 @@
 chef_gem "ruby-shadow"
 
 user "triadmin" do
-	home     "/home/triadmin/"
+	home     "/home/triadmin"
 	comment  "Trinity Default User"
 	password "$1$WPwJWy5s$r/.tTAvvujnwvC8KvfB5L1"
 	shell    "/bin/bash"
