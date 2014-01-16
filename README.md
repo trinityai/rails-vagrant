@@ -12,6 +12,11 @@ Then clone this repository:
 
     git clone https://github.com/trinityai/rails-vagrant.git
 
+Checkout the cookbooks (which are submodules) with the following commands
+
+    git submodule init
+    git submodule update
+
 Then create the virtual machine:
 
     cd rails-vagrant
